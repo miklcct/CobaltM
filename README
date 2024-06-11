@@ -1,0 +1,23 @@
+A colourful scheme based on Cobalt, reorganised by semantic meanings of language features.
+
+Different colours are used for different semantic items:
+yellow: generic identifiers
+orange: keywords (bold) and special identifiers (normal)
+red: constants
+pink: variables (grey for parameters)
+purple: functions
+teal: classes (light cyan for type parameters)
+light green: predefined identifiers
+light yellow: namespaces
+
+Different font styles are used for modifiers:
+
+For objects:
+bold: global
+italic: member
+bold italic: static member
+
+For classes:
+bold: normal classes
+italic: interfaces
+non-bold: type aliases
