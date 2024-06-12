@@ -1,8 +1,41 @@
 <scheme name="CobaltM" version="142" parent_scheme="Darcula">
   <metaInfo>
+    <property name="description">&lt;p&gt;A colourful scheme based on Cobalt, reorganised by semantic meanings of language features.&lt;/p&gt;
+
+&lt;p&gt;Different colours are used for different semantic items:&lt;/p&gt;
+&lt;p&gt;
+yellow: generic identifiers&lt;br/&gt;
+orange: keywords (bold) and special identifiers (normal)&lt;br/&gt;
+red: constants&lt;br/&gt;
+pink: variables (grey for parameters)&lt;br/&gt;
+purple: functions&lt;br/&gt;
+teal: classes (light cyan for type parameters)&lt;br/&gt;
+light green: predefined identifiers&lt;br/&gt;
+light yellow: namespaces&lt;br/&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Different font styles are used for modifiers:&lt;/p&gt;
+
+&lt;p&gt;
+For objects:&lt;br/&gt;
+bold: global&lt;br/&gt;
+italic: member&lt;br/&gt;
+bold italic: static member
+&lt;/p&gt;
+
+&lt;p&gt;
+For classes:&lt;br/&gt;
+bold: normal classes&lt;br/&gt;
+italic: interfaces&lt;br/&gt;
+non-bold: type aliases
+&lt;/p&gt;</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.2.0.0</property>
     <property name="originalScheme">Cobalt copy</property>
+    <property name="vendorMail">miklcct@gmail.com</property>
+    <property name="vendorName">Michael Tsang</property>
+    <property name="vendorUrl">https://miklcct.com/</property>
+    <property name="version">1.1</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
@@ -1362,6 +1395,12 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="KOTLIN_EXTENSION_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="a090ff" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="KOTLIN_FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="a090ff" />
@@ -1400,11 +1439,12 @@
         <option name="FOREGROUND" value="8080" />
       </value>
     </option>
+    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="KOTLIN_WRAPPED_INTO_REF">
       <value>
         <option name="FOREGROUND" value="9876aa" />
-        <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="9876aa" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="LABEL">
