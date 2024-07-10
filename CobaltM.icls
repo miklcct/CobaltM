@@ -31,11 +31,11 @@ non-bold: type aliases
 &lt;/p&gt;</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2024.2.0.0</property>
-    <property name="originalScheme">Cobalt copy</property>
+    <property name="originalScheme">CobaltM</property>
     <property name="vendorMail">miklcct@gmail.com</property>
     <property name="vendorName">Michael Tsang</property>
     <property name="vendorUrl">https://miklcct.com/</property>
-    <property name="version">1.1</property>
+    <property name="version">1.2</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
@@ -1484,11 +1484,6 @@ non-bold: type aliases
     <option name="MACRONAME">
       <value>
         <option name="FOREGROUND" value="ffdd00" />
-      </value>
-    </option>
-    <option name="MAGIC_MEMBER_ACCESS">
-      <value>
-        <option name="FOREGROUND" value="ff9d00" />
       </value>
     </option>
     <option name="MAKEFILE_TAB">
