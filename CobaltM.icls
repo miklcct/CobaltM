@@ -2,40 +2,40 @@
   <metaInfo>
     <property name="description">&lt;p&gt;A colourful scheme based on Cobalt, reorganised by semantic meanings of language features.&lt;/p&gt;
 
-&lt;p&gt;Different colours are used for different semantic items:&lt;/p&gt;
-&lt;p&gt;
-yellow: generic identifiers&lt;br/&gt;
-orange: keywords (bold) and special identifiers (normal)&lt;br/&gt;
-red: constants&lt;br/&gt;
-pink: variables (grey for parameters)&lt;br/&gt;
-purple: functions&lt;br/&gt;
-teal: classes (light cyan for type parameters)&lt;br/&gt;
-light green: predefined identifiers&lt;br/&gt;
-light yellow: namespaces&lt;br/&gt;
-&lt;/p&gt;
+      &lt;p&gt;Different colours are used for different semantic items:&lt;/p&gt;
+      &lt;p&gt;
+      yellow: generic identifiers&lt;br/&gt;
+      orange: keywords (bold) and special identifiers (normal)&lt;br/&gt;
+      red: constants&lt;br/&gt;
+      pink: variables (grey for parameters)&lt;br/&gt;
+      purple: functions&lt;br/&gt;
+      teal: classes (light cyan for type parameters)&lt;br/&gt;
+      light green: predefined identifiers&lt;br/&gt;
+      light yellow: namespaces&lt;br/&gt;
+      &lt;/p&gt;
 
-&lt;p&gt;Different font styles are used for modifiers:&lt;/p&gt;
+      &lt;p&gt;Different font styles are used for modifiers:&lt;/p&gt;
 
-&lt;p&gt;
-For objects:&lt;br/&gt;
-bold: global&lt;br/&gt;
-italic: member&lt;br/&gt;
-bold italic: static member
-&lt;/p&gt;
+      &lt;p&gt;
+      For objects:&lt;br/&gt;
+      bold: global&lt;br/&gt;
+      italic: member&lt;br/&gt;
+      bold italic: static member
+      &lt;/p&gt;
 
-&lt;p&gt;
-For classes:&lt;br/&gt;
-bold: normal classes&lt;br/&gt;
-italic: interfaces&lt;br/&gt;
-non-bold: type aliases
-&lt;/p&gt;</property>
-    <property name="ide">idea</property>
-    <property name="ideVersion">2024.2.0.0</property>
+      &lt;p&gt;
+      For classes:&lt;br/&gt;
+      bold: normal classes&lt;br/&gt;
+      italic: interfaces&lt;br/&gt;
+      non-bold: type aliases
+      &lt;/p&gt;</property>
+    <property name="ide">Rider</property>
+    <property name="ideVersion">2024.1.4.0.0</property>
     <property name="originalScheme">CobaltM</property>
     <property name="vendorMail">miklcct@gmail.com</property>
     <property name="vendorName">Michael Tsang</property>
     <property name="vendorUrl">https://miklcct.com/</property>
-    <property name="version">1.2</property>
+    <property name="version">1.3</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="ffffff" />
@@ -1604,8 +1604,8 @@ non-bold: type aliases
     </option>
     <option name="OC.OVERLOADED_OPERATOR">
       <value>
-        <option name="FOREGROUND" value="5f8c8a" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="a090ff" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="OC.PROPERTY">
@@ -2140,6 +2140,91 @@ non-bold: type aliases
       <value>
         <option name="FOREGROUND" value="ffff80" />
         <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.BUILTIN_TYPE_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff80" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_CONCEPT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="8080" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_DEPENDENT_NAME_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ffdd00" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_DOXYGEN_COMMAND_VALUE">
+      <value>
+        <option name="FOREGROUND" value="8a653b" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_ENUM_ENUMERATOR_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ff628c" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_GLOBAL_VARIABLE_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ff80e1" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_PREPROCESSOR_MACRO_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="908b25" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_PREPROCESSOR_MACRO_PARAMETER_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="cccc66" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_THIS_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="ff9d00" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_UE4_REFLECTION_SPECIFIER_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="467cda" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_LOCAL_FUNCTION_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="a090ff" />
+      </value>
+    </option>
+    <option name="ReSharper.CSHARP_STATIC_PROPERTY_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ff80e1" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="ReSharper.NAMESPACE_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ffff80" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.PREPROCESSOR_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="80b000" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.TYPE_PARAMETER_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="66cccc" />
       </value>
     </option>
     <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
