@@ -2463,8 +2463,8 @@
     </option>
     <option name="TS.TYPE_GUARD">
       <value>
-        <option name="EFFECT_COLOR" value="ff00" />
-        <option name="EFFECT_TYPE" value="5" />
+        <option name="EFFECT_COLOR" value="8080" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="TS.TYPE_PARAMETER">
